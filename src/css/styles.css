@@ -1,4 +1,13 @@
+:root{
+   --color-dark-blue: hsl(217, 19%, 35%);
+   --color-desaturated-blue: hsl(214, 17%, 51%);
+   --color-gray-blue: hsl(212, 23%, 69%);
+   --color-light-blue: hsl(210, 46%, 95%);
+}
+
 body{
    margin: 0;
    min-height: 100vh;
+   font-size: 13px;
+   font-family: 'Manrope', sans-serif;
 }
