@@ -1,1 +1,1 @@
-"use strict";var button=getElementById("button-social");button.addEventListener("click",(function(){}));
+"use strict";var button=document.getElementById("button-social"),social=document.getElementById("profile-social");button.addEventListener("click",(function(){button.classList.toggle("profile__icon--active"),social.classList.toggle("profile-social--active")}));
