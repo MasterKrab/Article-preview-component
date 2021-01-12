@@ -1,0 +1,1 @@
+"use strict";var button=getElementById("button-social");button.addEventListener("click",(function(){}));

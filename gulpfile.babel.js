@@ -69,14 +69,14 @@ gulp.task("babel", () =>{
 }) 
 
 gulp.task("imgmin", () =>{
-        return gulp.src("./src/images/*")
+        return gulp.src("./src/assets/img/*")
         .pipe(plumber())
             .pipe(imagemin([
                 imagemin.gifsicle({ interlaced: true }),
                 imagemin.mozjpeg({ quality: 30, progressive: true}),
                 imagemin.optipng({ optimizationLevel : 1})
             ]))
-        .pipe(gulp.dest("./public/images/"))
+        .pipe(gulp.dest("./public/assets/img"))
 
 })
 
